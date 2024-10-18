@@ -1,8 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import shoppingBag from '../../assets/shopping-bag.png';
-
-import './cart-icon.styles.scss';
 import { useAppSelector } from '../../hooks/reduxHooks';
+import './cart-icon.styles.scss';
 
 const CartIcon = () => {
   const { itemCount } = useAppSelector((state) => state.cart);

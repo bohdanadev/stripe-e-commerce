@@ -23,20 +23,11 @@ const SingleProduct = () => {
       navigate('/shop');
     }
   }, [id, navigate, products]);
-  // while we check for product
   if (!product) {
     return null;
   }
   const itemInCart = isInCart(Number(id), cartItems);
 
-  // const product = {
-  //   id: 1,
-  //   title: 'Studio Bag',
-  //   description:
-  //     'The Studio Bag is identical to its predecessor plus a few more inches to love. Transition it from satchel to backpack to crossbody simply by changing straps. Carry it wherever you go - it will be ready to adapt to your needs and keep up with your lifestyle.',
-  //   imageUrl: 'https://i.ibb.co/PcXVJ8m/studiobag.jpg',
-  //   price: 15,
-  // };
   const { imageUrl, title, price, description } = product;
 
   return (

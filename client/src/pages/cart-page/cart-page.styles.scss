@@ -3,6 +3,14 @@ h1,
   text-align: center;
 }
 
+.cart-page {
+  width: 100vw;
+  max-height: 70vh;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  overflow-y: scroll;
+}
+
 .cart-item {
   text-align: center;
   border: 1px solid #ccc;

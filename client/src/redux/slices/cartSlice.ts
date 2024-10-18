@@ -45,11 +45,6 @@ const cartSlice = createSlice({
       storeCartItems(state.cartItems);
     },
     increaseQuantity: (state, action: PayloadAction<number>) => {
-      // const item = state.cartItems.find((item) => item.id === action.payload);
-      // if (item) item.quantity++;
-      // state.itemCount = sumItems(state.cartItems).itemCount;
-      // state.total = sumItems(state.cartItems).total;
-      // storeCartItems(state.cartItems);
       const increaseIndex = state.cartItems.findIndex(
         (item) => item.id === action.payload
       );

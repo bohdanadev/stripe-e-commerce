@@ -1,10 +1,10 @@
-// export const stripeConfig = {
-//   secretKey: import.meta.env.VITE_PUBLISHABLE_KEY as string,
-// };
+export const stripeConfig = {
+  apiKey: import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY,
+};
 
-// export const appConfig = {
-//   port: import.meta.env.VITE_PORT || 3000,
-// };
+export const appConfig = {
+  port: import.meta.env.VITE_PORT || 5173,
+};
 
 export const apiConfig = {
   apiUrl: import.meta.env.VITE_API_URL as string,
