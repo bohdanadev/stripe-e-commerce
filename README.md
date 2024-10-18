@@ -41,7 +41,7 @@ This project is a full-stack e-commerce web application built using Vite, React,
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/bohdanadev/stripe-e-commerce-clone.git
+git clone https://github.com/bohdanadev/stripe-e-commerce.git
 cd stripe-e-commerce
 ```
 
