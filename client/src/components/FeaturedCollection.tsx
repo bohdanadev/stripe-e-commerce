@@ -12,7 +12,7 @@ const FeaturedCollection = () => {
   }, [dispatch]);
 
   const productItems = products
-    .filter((product, i) => i < 4)
+    .filter((_product, i) => i < 4)
     .map((product) => <FeaturedProduct product={product} key={product.id} />);
 
   return (
